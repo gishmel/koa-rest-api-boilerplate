@@ -34,8 +34,8 @@
 
 This boilerplate include the following features:
 
-- Log rotation and log management using [Bunyan](https://github.com/trentm/node-bunyan)
-- A super small and optimized [Docker](https://www.docker.com/) image based on Alpine image
+- Logging to STDOUT/STDERR stream using [Pino](http://getpino.io/)
+- A super small and optimized [Docker](https://www.docker.com/) image based on [Node.js Alpine image](https://hub.docker.com/_/node/)
 - [Swagger](https://swagger.io/) API documentation based on JSDoc
 - Continuous integration and delivery using [CircleCI](https://circleci.com/)
 - Unit Test and Integration Test along with Test Coverage using [Jest](https://facebook.github.io/jest/) testing framework
@@ -96,6 +96,14 @@ $ yarn pack
 ```
 
 
+## Test
+
+All test for this boilerplate uses following tools.
+
+- [Jest](https://github.com/facebook/jest)
+- [supertest](https://github.com/visionmedia/supertest): Easy HTTP assertions for integration test
+
+
 ## Contributing
 
 This project follows the [**Contributor Covenant**](http://contributor-covenant.org/version/1/4/) Code of Conduct.
@@ -114,4 +122,4 @@ If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc
 
 Provided under the terms of the [MIT License](https://github.com/posquit0/koa-rest-api-boilerplate/blob/master/LICENSE).
 
-Copyright © 2018, [Byungjin Park](http://www.posquit0.com).
+Copyright © 2019, [Byungjin Park](http://www.posquit0.com).
